@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CorImgApp"
+             xmlns:controls="clr-namespace:Plugin.CrossPlatformTintedImage.Abstractions;assembly=Plugin.CrossPlatformTintedImage.Abstractions"
+             x:Class="CorImgApp.MainPage">
+    <StackLayout>
+        <controls:TintedImage Source="foto" TintColor="Purple" />
+        <controls:TintedImage Source="foto" TintColor="Red" WidthRequest="100" />
+        <StackLayout Orientation="Horizontal">
+            <controls:TintedImage Source="foto" TintColor="Yellow" WidthRequest="100" />
+            <controls:TintedImage Source="foto" TintColor="Blue" WidthRequest="100" />
+            <controls:TintedImage Source="foto" TintColor="Black" WidthRequest="100" />
+        </StackLayout>
+    </StackLayout>
+
+
+
+</ContentPage>
